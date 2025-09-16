@@ -1,0 +1,35 @@
+# --- Global Defaults ---
+# Ensure all text files are normalized to LF in the repo
+* text=auto eol=lf
+
+# --- Python Code ---
+*.py text eol=lf
+
+# --- Config Files ---
+*.env text eol=lf
+*.env.example text eol=lf
+*.ini text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# --- Database & Alembic ---
+*.sql text eol=lf
+alembic.ini text eol=lf
+migrations/* text eol=lf
+
+# --- OS/Tooling Specific ---
+*.sh text eol=lf     # Shell scripts (Linux/macOS)
+*.bat text eol=crlf  # Windows batch scripts
+
+# --- Optional: Logs / Ignore Binaries ---
+*.log -text
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.ico -text
+*.pdf -text
