@@ -22,8 +22,8 @@ alembic.ini text eol=lf
 migrations/* text eol=lf
 
 # --- OS/Tooling Specific ---
-*.sh text eol=lf     # Shell scripts (Linux/macOS)
-*.bat text eol=crlf  # Windows batch scripts
+*.sh text eol=lf     
+*.bat text eol=crlf 
 
 # --- Optional: Logs / Ignore Binaries ---
 *.log -text
